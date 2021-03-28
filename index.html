@@ -10,51 +10,82 @@
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="./index.html">Navbar</a>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home 
+        <a class="nav-link" href="./index.html">Home 
         <span class="sr-only">(current)</span></a>
       </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./visualizationLatTemp.html">Temperature vs Latitude</a>
+            <a class="dropdown-item" href="./visualizationLatHumid.html">Humidity vs Latitude</a>
+            <a class="dropdown-item" href="./visualizationLatCloud.html">Cloudiness vs Latitude</a>
+			<a class="dropdown-item" href="./visualizationLatWind.html">Wind Speed vs Latitude</a>
+          </div>
+        </li>
     </ul>
   </nav>
   <div class="container">
-    <h1>Cat</h1>
+    <h1>Data Visualization</h1>
+	<p>Making and organizing data isn't enough, you have to be able to see data and be able to put it on a web page so simple that even a hamster could navigate it! Click on the name or chart for any of the data to go to the visualization page that is set aside specifically for that data set. Or click the comparisons option to see them side by side, I guess. Or Data to see where we got all the data from.</p>
     <div class="row">
       <div class="col-md-4">
+          <a href="./visualizationLatTemp.html"><h3>Temperature by Latitude</h3></a>
         <div class="thumbnail">
-          <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="..." class="img-thumbnail" />
+          <img src="./assets/images/Fig1.png" alt="..." class="img-thumbnail" />
         </div>
         <div class="caption">
-          <h3>Thing 1</h3>
           <p>...</p>
-          <p>
-          <a href="#" class="btn btn-primary" role="button">Button</a> 
-          <a href="#" class="btn btn-default" role="button">Button</a></p>
         </div>
       </div>
       <div class="col-md-4">
+          <a href="./visualizationLatHumid.html"><h3>Humidity by Latitude</h3></a>
         <div class="thumbnail">
-          <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="..." class="img-thumbnail" />
+          <img src="./assets/images/Fig2.png" alt="..." class="img-thumbnail" />
         </div>
         <div class="caption">
-          <h3>Thing 2</h3>
           <p>...</p>
-          <p>
-          <a href="#" class="btn btn-primary" role="button">Button</a> 
-          <a href="#" class="btn btn-default" role="button">Button</a></p>
         </div>
       </div>
       <div class="col-md-4">
+          <a href="./visualizationLatCloud.html"><h3>Cloudiness by Latitude</h3></a>
+        <div class="thumbnail">
+          <img src="./assets/images/Fig3.png" alt="..." class="img-thumbnail" />
+        </div>
+        <div class="caption">
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+	    <div class="row">
+      <div class="col-md-4">
+          <a href="./visualizationLatWind.html"><h3>Wind Speed by Latitude</h3></a>
+        <div class="thumbnail">
+          <img src="./assets/images/Fig4.png" alt="..." class="img-thumbnail" />
+        </div>
+        <div class="caption">
+          <p>...</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+          <h3>Comparisons</h3>
         <div class="thumbnail">
           <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="..." class="img-thumbnail" />
         </div>
         <div class="caption">
-          <h3>Thing 3</h3>
           <p>...</p>
-          <p>
-          <a href="#" class="btn btn-primary" role="button">Button</a> 
-          <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+          <h3>Data</h3>
+        <div class="thumbnail">
+          <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="..." class="img-thumbnail" />
+        </div>
+        <div class="caption">
         </div>
       </div>
     </div>
